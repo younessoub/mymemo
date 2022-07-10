@@ -1,0 +1,34 @@
+h2 {
+  color: rgb(251, 255, 247);
+  margin: 10px 0 10px 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+textarea {
+  width: 500px;
+  min-height: 450px;
+  outline: none;
+  padding: 5px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+}
+@media screen and (max-width: 550px) {
+  textarea {
+    width: 250px;
+  }
+}
+.saveButton {
+  margin: 10px 0 0 0;
+  width: 100px;
+  height: 30px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: rgb(152, 223, 71);
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
